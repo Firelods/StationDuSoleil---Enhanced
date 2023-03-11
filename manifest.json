@@ -2,6 +2,11 @@
   "name": "StationDuSoleil Enhanced",
   "version": "1.0.0",
   "description": "Une version améliorée de StationDuSoleil",
+  "icons": {
+    "16": "./logoExtension.png",
+    "48": "./logoExtension.png",
+    "128": "./logoExtension.png"
+  },
   "manifest_version": 3,
   "author": "Clément LEFEVRE",
   "action": {
