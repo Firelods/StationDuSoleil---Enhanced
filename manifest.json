@@ -1,0 +1,21 @@
+{
+  "name": "StationDuSoleil Enhanced",
+  "version": "1.0.0",
+  "description": "Une version améliorée de StationDuSoleil",
+  "manifest_version": 3,
+  "author": "Clément LEFEVRE",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "StationDuSoleil"
+  },
+  "permissions": ["storage", "scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.lastationdusoleil.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
